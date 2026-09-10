@@ -1,0 +1,36 @@
+name: mens_store
+description: "An e-commerce mobile application for men's essentials."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Localization / i18n
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Storage & Session Persistence
+  shared_preferences: ^2.2.3
+  flutter_secure_storage: ^9.2.2
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
